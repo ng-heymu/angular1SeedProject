@@ -1,0 +1,33 @@
+ <div class="modal-header">
+            <h3 class="modal-title" id="modal-title">User {{$ctrl.user.name}} business card </h3>
+</div>
+
+<div class="modal-body" id="modal-body">
+    
+    <div class="row">
+        <div class="col-md-2">Name</div>
+        <div class="col-md-4"><input type="text" ng-model="$ctrl.user.name"/></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-2">UserName</div>
+        <div class="col-md-4">{{$ctrl.user.username}}</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-2">Email</div>
+        <div class="col-md-4">{{$ctrl.user.email}}</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-2">Phone</div>
+        <div class="col-md-4">{{$ctrl.user.phone}}</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-2">Company</div>
+        <div class="col-md-4">{{$ctrl.user.company.name}}</div>
+    </div>
+
+</div>
+        

@@ -1,0 +1,21 @@
+{
+  "name": "angularseed",
+  "version": "1.0.0",
+  "description": "Seed project for angularJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harshadkumar Shrishrimal <ui.heymu@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "lite-server": "^2.2.2"
+  }
+}
